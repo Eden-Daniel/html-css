@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: #4DDB96;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ h1{
+    color: #133625;
+ }
+
+ h1#pricinpal{
+     background-color: #133625;
+     text-align: center;
+     color: honeydew;
+ }
+
+h2{
+    color: #297550;
+}
+
+.basico{
+    color: #29694abe;
+}
+
+.intermediario{
+    color: #696829be;
+}
+
+.avançado{
+    color: #692929be;
+}
+ 

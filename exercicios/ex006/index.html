@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatção</h2>
+
+    <!-- a teg code e um fonte monoespaçada que deixa as letras com a mesma largura -->
+
+    <p>O comando <code>document.getElemntById('teste')</code> é escrito em linguagem JavaScript.</p>
+
+    <!-- O code não aruma o codigo com indentação mas dentro de uma teg prem fica pre-formatada que considera a espaçamento-->
+
+    <!-- com shift tab: podemos mover todo codigo selecionado para esquerda é so o tab para a direita -->
+
+    <pre>
+        <code>
+    num= int(input('Digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <!-- (a teg <q> é quote que siginifica sitação) o <q> da sentido às coisas não é uma forma simplismente é um sentido de uma citação, caso o texto for mais ou menos interecante coloque as " " que não e uma citação -->
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+
+    <h2>Citação completa</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <!-- Aqui a uma citação de bloco que e mais longa que uma citação simples, também ela é deslocada-->
+    <!-- Podese criar um parametro dentro do blockquote cite, que e citando o indereço do livro -->
+    <blockquote cite="https://books.google.com.br/books?id=E8ZtDwAAQBAJ&printsec=frontcover&dq=html+para+leigos&hl=pt-BR&sa=X&ved=2ahUKEwi3yKLKj93vAhXxGbkGHXrgDZYQ6AEwAHoECAQQAg#v=onepage&q=html%20para%20leigos&f=false">
+        A diferença entre elementos inline e um bloco de
+        texto é importante. Os elementos HTML neste capítulo
+        descreve os blocos de textos.
+        <!-- visualmente o o url não aparecera como um link, mas os mecanismos de busca como o google a parte interna do site sabera que esta referenciando o livro que esta disponível neste endereço, mesmo que parcialmente (mostrando o dono e manter o diteito daqueles que produzen conteudo)-->
+    </blockquote>
+
+
+    <h2>Abreviaçôes</h2>
+    <!-- HTML e CSS e uma sigla da para mostra o siginificado da sigla -->
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+
+    <h2>Texto invertido</h2>
+    <p> <bdo dir="rtl"> Estou aprendendo a criar coisas em HTML. </bdo> </p>
+    <!-- ltr = left to right / rtl = right to left -->
+
+    
+    
+</body>
+</html>

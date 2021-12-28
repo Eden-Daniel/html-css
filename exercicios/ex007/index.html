@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <!-- numera altomaticamente na orden / o type e a forma como mostra se é: numerica, alfabetica maiuscula ou menuscula, é algarismos romanos-->
+    <ol type="I"> <!-- "1" "A" "a" "I" "i" -->
+        <li>Acorda</li>
+        <li>Tomar cafe da manhã</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+            <ol type="a">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+        <li>Descançar</li>
+        <li>Jogar</li>
+        <li>Almoçar</li>
+    </ol>
+    <!-- não a numero so pequenos circulos pretos que pode ser alterado com o type -->
+    <h2>Listas não Ordenadas</h2>
+    <ul type="circle"> <!-- "disc" "circle" "square" -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Biscoito</li>
+    </ul>
+    <h2>Lista Misturada</h2>
+    <ol>
+        <li>Jogos Antigos</li>
+        <ol type="a">
+            <li>Age of Empires</li>
+            <li>WarCraft 3</li>
+            <li>WarLords Battle Cry 3</li>
+            <li>Empire Earth</li>
+        </ol>        
+        <li>Jogos Novos</li>
+        <ol type="a" start="5"> <!-- o start e numerico: antão 5 começara na letra "e" -->
+            <li>Assassis's Creed</li>
+            <li>Ancestors Legacy</li>
+            <li>For Honor</li>
+            <li>Valheim</li>
+        </ol>
+    </ol>
+    <h2>Lista de Definição</h2>
+    <dl> <!-- dt - Termo / dd - Descrição -->
+        <dt>HTML</dt> <!-- Termo -->
+        <dd>Linguagem de marcação para a criação do conteudo de um site</dd> <!-- Descrição -->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+    
+</body>
+</html>

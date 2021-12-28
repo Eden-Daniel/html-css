@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color:darkgrey;
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color:honeydew;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 40%);
+            border-radius: 10px;
+        }        
+        nav{
+            background-color:lightslategrey;
+            padding: 5px;            
+            box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 40%);            
+        }
+        nav > a {
+            margin: 5px;
+            text-decoration: none;
+            color:linen;
+            font-weight: bold;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: honeydew;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 40%);
+            border-radius: 15px 5px;
+        }
+        section{
+            background-color:rgb(170, 182, 194);
+            padding: 5px;
+            box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 40%);
+        }
+        section > article{
+            background-color: lightslategrey;
+            padding: 2px;
+            box-shadow: 5px 3px 5px 1px rgb(0 0 0 / 40%);
+        }
+        footer{
+            background-color: rgb(26, 26, 26);
+            text-align:center;
+            padding: 5px;
+            color: white;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo Pricinpal</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <p>Informaçoes principais</p>
+        <section>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et est quaerat odio quisquam veniam quidem ratione. Et ratione velit cumque nobis. Natus culpa fuga quidem odit vel ducimus quo a.</p>
+            <article>
+                <p>Artigo escrito por Fulano de Tal</p>
+            </article>
+        </section>        
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+    </footer>    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivo diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <!-- imagem carregada caso tela for menor que a tamanho 750 px -->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <!-- imagem carregada caso tela for menor que a tamanho 1050px -->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <!-- imagen carregada por padrão -->
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+
+    <!-- o preload tem três opçoes (auto: so vai considerar que o site terminou de carrega depois que carregar todo áudio tambem) o (metadata carregara so algumas informações do arquivo) o (none: so carregara se o cliente interagir ))-->
+
+    <!-- controls: adiciona o controle / autoplay: reproduzira musica altomaticamente / loop: repitira música  -->
+
+    <audio preload="metadata" controls>
+        <source src="midia/langit-anime-sim- leyiit-end.mp3" type="audio/mpeg">
+        <!-- caso navegador não for compativel ira executar os proximo na ordem (a orden e muito importante) -->
+        <source src="midia/langit-anime-sim- leyiit-end.ogg" type="audio/ogg">
+        <source src="midia/langit-anime-sim- leyiit-end.wav" type="audio/wav">
+        <!-- caso não carregar nenhum arquivo -->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/langit-anime-sim- leyiit-end.mp3">Clique aqui para baixar</a></p>
+
+
+    </audio>
+    
+</body>
+</html>
