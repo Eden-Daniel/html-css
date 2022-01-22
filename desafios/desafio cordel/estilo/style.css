@@ -1,4 +1,13 @@
-@charset "UTF-8";    
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Luckiest Guy', cursive;
+    --fonte3: 'Caveat', cursive;
+}
 
 *{
     margin: 0px;
@@ -8,12 +17,14 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{
     background-color: rgb(40, 40, 40);
     color: whitesmoke;
     text-align: center;
+    
     
     
 }
@@ -23,6 +34,8 @@ header > h1{
     font-variant: small-caps;
     text-align: center;   
     font-variant: small-caps; 
+    font-size: 6.5vw;
+    font-family: var(--fonte2);
 }
 
 header > p {
@@ -43,6 +56,8 @@ section{
     padding-bottom: 10vh;
     line-height: 1.5em;
     padding-left: 15px;
+    font-family: var(--fonte3);
+    font-size: 4.5vw;
     
 }
 
@@ -52,8 +67,9 @@ section.normal{
 }
 
 section.imagen > p{
-    width: 300px;
+    display: inline-block;
     background-color: rgb(60, 60, 60);
+    padding: 6px;
     color: whitesmoke;
 }
 
