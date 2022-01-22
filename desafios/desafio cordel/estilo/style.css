@@ -55,10 +55,15 @@ section{
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 1.5em;
-    padding-left: 15px;
-    font-family: var(--fonte3);
+    padding-left: 20px;
+    font-family: var(--fonte3);    
     font-size: 4.5vw;
-    
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p {
+    padding-bottom: 1.5em;
 }
 
 section.normal{
@@ -66,11 +71,25 @@ section.normal{
     color: black;
 }
 
+section.imagen {
+    box-shadow: inset 5px 5px 16px rgba(0, 0, 0, 0.600);
+    background-size: cover;
+}
+
 section.imagen > p{
     display: inline-block;
-    background-color: rgb(60, 60, 60);
+    background-color: rgba(60, 60, 60, 0.550);    
     padding: 6px;
     color: whitesmoke;
+}
+
+section#fundo01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right  center;
+}
+
+section#fundo02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer{
